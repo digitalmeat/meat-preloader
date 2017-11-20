@@ -38,7 +38,6 @@
     var createLoader = function() {
         var date = new Date();
         startTime = date.getTime();
-        //console.log( _urlImages );
         if (_urlImages != "") {
             CONTAINER.css({ overflow: "hidden" });
             createContainer();

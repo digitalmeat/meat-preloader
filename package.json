@@ -1,0 +1,27 @@
+{
+  "name": "meat-preloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "meat-preloader.js",
+  "engines": {
+    "node": "7.6.0",
+    "yarn": "0.21.3",
+    "npm": "4.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalmeat/meat-preloader.git"
+  },
+  "author": "Digital Meat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalmeat/meat-preloader/issues"
+  },
+  "homepage": "https://github.com/digitalmeat/meat-preloader#readme",
+  "files": [
+    "dist/meat-preloader.js",
+  ],
+}
