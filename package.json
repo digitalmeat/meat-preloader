@@ -2,7 +2,10 @@
   "name": "meat-preloader",
   "version": "1.0.0",
   "description": "",
-  "main": "meat-preloader.js",
+  "main": "dist/meat-preloader.js",
+  "files": [
+    "dist/meat-preloader.js"
+  ],
   "engines": {
     "node": "7.6.0",
     "yarn": "0.21.3",
@@ -21,7 +24,17 @@
     "url": "https://github.com/digitalmeat/meat-preloader/issues"
   },
   "homepage": "https://github.com/digitalmeat/meat-preloader#readme",
-  "files": [
-    "dist/meat-preloader.js",
-  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-beautify": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-remove-empty-lines": "0.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-comments": "^2.4.5",
+    "gulp-uglify": "^2.1.2"
+  }
 }
